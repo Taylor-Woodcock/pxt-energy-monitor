@@ -14,7 +14,7 @@ namespace energy {
                 if(usage > 0)
                     body();
                 
-                basic.pause(100);
+                basic.pause(1000);
             }
         })
     }
