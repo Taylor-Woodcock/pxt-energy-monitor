@@ -46,6 +46,13 @@ namespace energy {
     return val;
   }
   
+  /**
+    * Measures and returns the usage of a decive in Watts.
+    */
+    //% blockId=getEnergyUsage block="get energy usage" 
+    //% blockExternalInputs=1
+    //% advanced=true
+    //% weight=1
   int getEnergyUsage()
   {
     int period = uBit.compass.getPeriod();
