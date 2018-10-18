@@ -1,14 +1,15 @@
 {
     "name": "pxt-energy-monitor",
-    "version": "0.0.0",
-    "description": "",
+    "version": "0.0.1",
+    "description": "Enables monitoring of energy usage using the on-board magnetometer",
     "dependencies": {
         "core": "*",
         "radio": "*"
     },
     "files": [
         "README.md",
-        "main.ts"
+        "energy.ts",
+        "energy.cpp"
     ],
     "testFiles": [
         "test.ts"
