@@ -8,6 +8,7 @@
     },
     "files": [
         "README.md",
+        "shims.d.ts",
         "energy.ts",
         "energy.cpp"
     ],
