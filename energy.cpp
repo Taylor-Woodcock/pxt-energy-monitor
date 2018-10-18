@@ -51,7 +51,7 @@ namespace energy {
     */
     //% blockId=getEnergyUsage block="get energy usage" 
     //% blockExternalInputs=1
-    //% advanced=true
+    //% advanced=false
     //% weight=1
   int getEnergyUsage()
   {
