@@ -10,7 +10,7 @@ namespace energy {
     export function onDeviceSwitchedOn(body: Action) {
         control.inBackground(() => {
             while (true) {
-                int usage = getEnergyUsage();
+                let usage = getEnergyUsage();
                 if(usage > 0)
                     body();
             }
