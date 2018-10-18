@@ -50,7 +50,7 @@ namespace energy {
     * Measures and returns the usage of a decive in Watts using the on-board magnetometer.
     */
     //% blockId=getEnergyUsage block="get energy usage (W)" 
-    //% blockExternalInputs=1
+    //% blockExternalInputs=0
     //% advanced=false
     //% weight=99
   int getEnergyUsage()
