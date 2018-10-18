@@ -13,6 +13,8 @@ namespace energy {
                 let usage = getEnergyUsage();
                 if(usage > 0)
                     body();
+                
+                basic.pause(100);
             }
         })
     }
