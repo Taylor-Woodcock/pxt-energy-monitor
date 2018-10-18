@@ -11,7 +11,7 @@ namespace energy {
         control.inBackground(() => {
             while (true) {
                 int usage = getEnergyUsage();
-                if(usage > 10)
+                if(usage > 0)
                     body();
             }
         })
