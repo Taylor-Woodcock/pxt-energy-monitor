@@ -10,6 +10,8 @@ using namespace pxt;
 #define RANGE_MAX 256981
 #define WATTAGE_MAX 3000
 
+#define MICROBIT_ID_ELECTRICAL_POWER 0xDAB
+
 namespace energy {
   int samples[SAMPLES];
   int history[HISTORY];
@@ -49,10 +51,11 @@ namespace energy {
   /**
     * Measures and returns the usage of a decive in Watts using the on-board magnetometer.
     */
-    //% blockId=getEnergyUsage block="get energy usage (W)" 
+    //% blockId=getEnergyUsage block="electrical power (Watts)" 
     //% blockExternalInputs=0
     //% advanced=false
-    //% weight=99
+    //% weight=98
+    //% blockGap=8
   int getEnergyUsage()
   {
     int period = uBit.compass.getPeriod();
